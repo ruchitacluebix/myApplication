@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">CitizenFeedbackApplication</string>
+    <string name="slide_title" translatable="false">Nagpur Municipal Corporation</string>
+    <string name="slide_desc" translatable="false">Book movie tickets for your family and friends!</string>
+    <string name="btn_skip" translatable="false">Skip ...</string>
+    <string name="btn_register" translatable="false">Register</string>
+    <string name="txt_registration" translatable="false">REGISTRATION</string>
+    <string name="txt_already_account" translatable="false">Already have an account ?</string>
+    <string name="txt_dont_account" translatable="false">Don\'t have an account ?</string>
+    <string name="txt_login" translatable="false">Login </string>
+    <string name="txt_register_now" translatable="false">Register now </string>
+    <string name="txt_update" translatable="false">Update Profile</string>
+
+    <string name="hint_username" translatable="false">Username</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="button_next" translatable="false">Next</string>
+    <string name="button_registration" translatable="false">Registration</string>
+    <string name="hint_f_name" translatable="false">First Name</string>
+    <string name="hint_l_name" translatable="false">Last Name</string>
+    <string name="hint_email" translatable="false">Email Id</string>
+    <string name="hint_age" translatable="false">Age</string>
+    <string name="hint_mob_no" translatable="false">Mobile No.</string>
+    <string name="hint_zone_no" translatable="false">Zone No.</string>
+    <string name="hint_ward_no" translatable="false">Ward No.</string>
+    <string name="hint_dob" translatable="false">Date of Birth</string>
+    <string name="hint_addhar_card_no" translatable="false">Addhar No.</string>
+    <string name="hint_address" translatable="false"> Address </string>
+    <string name="hint_address2" translatable="false"> Address 2</string>
+    <string name="hint_current_city" translatable="false">Current City</string>
+    <string name="hint_tahsil" translatable="false">Tahsil</string>
+    <string name="hint_discrit" translatable="false">District</string>
+    <string name="hint_pincode" translatable="false">Pincode</string>
+    <string name="hint_male" translatable="false">Male</string>
+    <string name="hint_female" translatable="false">Female</string>
+    <string name="hint_gender" translatable="false">Gender</string>
+    <string name="hint_IDProof" translatable="false">Select ID Proof</string>
+    <string name="hint_IDProof_no" translatable="false">ID Proof No.</string>
+    <string name="hint_IDProof_scan_copy" translatable="false">Attach photo Copy of your ID Proof</string>
+    <string name="hint_old_password" translatable="false"> Old Password</string>
+    <string name="hint_new_password" translatable="false"> New Password</string>
+    <string name="hint_confirm_password" translatable="false"> Confirm Password</string>
+    <string name="title_activity_dashboard" translatable="false">DashboardActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="menu_tools" translatable="false">Tools</string>
+    <string name="menu_share" translatable="false">Share</string>
+    <string name="menu_send" translatable="false">Send</string>
+    <string name="about_nmc" translatable="false">The Municipal Council for Nagpur was established in 1864. At that time, the area under the jurisdiction of the Nagpur Municipal Council was 15.5 sq. km and the population was 82,000.
+The duties entrusted to the Nagpur Municipal Council were to maintain cleanliness and arrange for street lights and water supply with government assistance. In 1922, the Central Provinces &amp; Berar Municipalities Act was framed for the proper functioning of the Municipal Council.
+On 22nd January 1950, CP &amp; Berar Act No. 2 was published in the Madhya Pradesh Gazette which is known as the City of Nagpur Corporation Act, 1948 (CNC Act). The Municipal Corporation came into existence in March 1951. The first development plan of the city was prepared in 1953. In the year 1956, under the state reconstitution, the Berar Province merged into the Maharashtra State with Mumbai being recognised as its capital; in 1960, Nagpur was declared as the second capital of the state.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="btn_update" translatable="false">Update</string>
+
+    <string name="equicity_heading">Promoting Equity in Delivery of Municipal Services and Diversity in Local Authority Organisations in India </string>
+    <string name="equicity_para1">Nagpur city has been chosen as the first project city under the Equi-City project in India. The overall aim of the Equi-city project, funded by the European Union, is to promote inclusive and sustainable growth of Indian cities through collaborative multi- stakeholder approach using participatory governance between local authorities and stakeholders to ensure equitable provision of municipal services and to promote diversity within and capacity development of local government organizations.</string>
+    <string name="equicity_objective1">To establish participatory forums where stakeholders and Las can engage in collaborative solutions and coordinated action for equitable delivery of municipal services.</string>
+    <string name="equicity_objective2">To collaboratively build up technical capacity of LA officials so as to equip them to be leaders and be responsive to urgent priorities of especially urban poor.</string>
+    <string name="equicity_objective3">To sensitize LA officials and to advocate and implement diversity and equality frameworks in the organizations managed by Las</string>
+    <string name="equicity_objective4">To develop and implanted tools that will enable citizens and Las to collaboratively monitor and evaluate municipal services delivery </string>
+    <string name="equicity_objective5">To communicate and sensitize officials, citizens and Las to collaboratively monitor and evaluate municipal services delivery</string>
+    <string name="equicity_objective6">To communicate and sensitize officials, citizens and poor urban dwellers on the various initiatives and issues in the LA so to promote accountability and transparency in operations while providing incentives for action.</string>
+    <!--   AIzaSyBluRIpfJ3PvLPzrz_u1BlIp6LFJGfGQYI-->
+</resources>

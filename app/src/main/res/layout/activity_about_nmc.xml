@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".information.AboutNMCActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/Theme.Shrine.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    app:titleTextAppearance="@dimen/font_14"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@drawable/main_header_selector"
+                    app:popupTheme="@style/Theme.Shrine.PopupOverlay" >
+
+                </android.support.v7.widget.Toolbar>
+
+            </android.support.design.widget.AppBarLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/linear_layout"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="match_parent">
+               <!-- <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:src="@drawable/about_nmc"/>-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Institutional Structure"
+            android:layout_gravity="center"
+            android:padding="@dimen/dimen_5dp"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:textSize="@dimen/font_20"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:padding="@dimen/dimen_10dp"
+            android:layout_height="@dimen/dimen_180dp"
+            android:src="@drawable/nmc_about"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:padding="@dimen/dimen_10dp"
+                android:id="@+id/txt_view"
+                android:gravity="left"
+                android:textColor="@android:color/black"
+                android:justificationMode="inter_word"
+                android:layout_gravity="center_vertical|end"
+                android:layout_margin="@dimen/dimen_20dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/font_14"
+                android:text="@string/about_nmc"/>
+            </LinearLayout>
+        </LinearLayout>
+    <!--</android.support.v7.widget.CardView>-->
+</ScrollView>
+</RelativeLayout>

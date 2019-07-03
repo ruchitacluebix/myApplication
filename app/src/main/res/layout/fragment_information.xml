@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/textInputLayout"
+    tools:context=".fragment.InformationFragment">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_header_selector"
+        android:src="@drawable/top_img"/>
+</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_margin="@dimen/dimen_10dp"
+            card_view:cardCornerRadius="10dp"
+            card_view:cardElevation="3dp"
+            card_view:cardMaxElevation="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Nagpur City"
+                android:textAllCaps="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/font_20"/>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_margin="@dimen/dimen_10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardView_abt_nmc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/box_grey_border"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardMaxElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_5dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dimen_5dp">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nmc_small" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:text="ABOUT NMC"
+                            android:textSize="@dimen/font_13" />
+
+                    </LinearLayout>
+
+
+                    <!--  <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:layout_gravity="center"
+                    android:drawableTop="@drawable/nmc_small"
+                    android:gravity="center"
+                    android:text="About nmc"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_11"
+                    android:textStyle="bold" />-->
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardView_abt_equicity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/box_grey_border"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardMaxElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dimen_5dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dimen_5dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/equicity_new" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:text="ABOUT EQUICITY"
+                            android:textSize="@dimen/font_13" />
+
+                    </LinearLayout>
+                    <!--    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_140dp"
+                    android:layout_gravity="center"
+                    android:drawableTop="@drawable/equicity_new"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_2dp"
+                    android:text="About equicity"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/font_11"
+                    android:textStyle="bold" />-->
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+             android:layout_margin="@dimen/dimen_10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardView_electedwards_and_members"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/box_grey_border"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardMaxElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:padding="@dimen/dimen_5dp"
+                        android:layout_margin="@dimen/dimen_5dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ward" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:text="ELECTED WARD MEMBERS"
+                            android:textSize="@dimen/font_13" />
+
+                    </LinearLayout>
+                    <!--   <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_140dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:drawableTint="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/ward"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="true"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/font_11"
+                    android:text="elected ward members"/>-->
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/cardView_zonal_commissionars"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/box_grey_border"
+                    card_view:cardCornerRadius="10dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardMaxElevation="3dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_5dp"
+                        android:layout_margin="@dimen/dimen_5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_gravity="center"
+                            android:layout_height="80dp"
+                            android:src="@drawable/zone" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center_horizontal"
+                            android:text="ZONAL \nCOMMISSIONERS \n&amp; DEPT HEADS"
+                            android:textSize="@dimen/font_13" />
+
+                    </LinearLayout>
+                    <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_140dp"
+                    android:gravity="center"
+                    android:padding="@dimen/dimen_5dp"
+                    android:drawableTint="@color/colorPrimaryDark"
+                    android:drawableTop="@drawable/zone"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="true"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/font_11"
+                    android:text="zonal commissionars and dept head"/>-->
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

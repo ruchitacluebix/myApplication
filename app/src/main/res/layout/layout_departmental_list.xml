@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_5dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_5dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:id="@+id/txt_sr_no"
+                            android:singleLine="true"
+                            android:layout_gravity="center"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_10"
+                            android:gravity="left"
+                            android:text="S.No"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:id="@+id/txt_department"
+                            android:maxLines="2"
+                            android:layout_gravity="left"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_10"
+                            android:gravity="left"
+                            android:text="Department"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15"
+                        android:layout_margin="@dimen/dimen_2dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/txt_department_head"
+                            android:layout_gravity="left"
+                            android:maxLines="2"
+                            android:textSize="@dimen/font_10"
+                            android:textColor="@android:color/black"
+                            android:gravity="left"
+                            android:layout_height="wrap_content"
+                            android:text="Department Head"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:maxLines="2"
+                            android:id="@+id/txt_designation"
+                            android:gravity="left"
+                            android:text="Designation"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_10" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_2dp"
+                    android:layout_weight="80">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_weight="35"
+                        android:layout_gravity="left"
+                        android:id="@+id/txt_contact_no"
+                        android:singleLine="true"
+                        android:textSize="@dimen/font_10"
+                        android:textColor="@android:color/black"
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:text="Contact No."/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/dimen_5dp"
+    android:layout_margin="@dimen/dimen_5dp"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/progress_bar"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            app:srcCompat="@drawable/equicity_logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="@dimen/dimen_10dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txt_update"
+            android:textAppearance="@style/TextAppearance.Shrine.Title"
+            android:textAllCaps="true"
+            android:textSize="@dimen/font_20" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_margin="@dimen/dimen_3dp"
+            android:background="@android:color/black"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_3dp"
+            android:layout_margin="@dimen/dimen_3dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/dimen_3dp"
+                    style="@style/Widget.Shrine.TextInputLayout.Reg"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_f_name">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_12"
+                        android:id="@+id/txt_input_editext_f_name"
+                        android:inputType="text"
+                        android:maxLines="1" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/dimen_3dp"
+                    style="@style/Widget.Shrine.TextInputLayout.Reg"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_l_name">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/font_12"
+                        android:id="@+id/txt_input_editext_l_name"
+                        android:inputType="text"
+                        android:maxLines="1" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.Shrine.TextInputLayout.Reg"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_mob_no">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_12"
+                   android:focusable="false"
+                    android:editable="false"
+                    android:inputType="number"
+                    android:id="@+id/txt_input_editext_mob_no"
+                    android:maxLength="10"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.Shrine.TextInputLayout.Reg"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/font_12"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/txt_input_editext_email"
+                    android:maxLines="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginLeft="@dimen/dimen_5dp"
+                            android:textSize="@dimen/font_12"
+                            android:text="@string/hint_gender"/>
+                        <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_gravity="left"
+                            android:gravity="center"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:buttonTint="@color/colorPrimary"
+                                android:text="@string/hint_female"
+                                android:layout_margin="@dimen/dimen_5dp"
+                                android:id="@+id/rad_f"
+                                android:textSize="@dimen/font_12"
+                                android:textColor="@android:color/darker_gray"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_width="match_parent"
+                                android:buttonTint="@color/colorPrimary"
+                                android:textSize="@dimen/font_12"
+                                android:layout_margin="@dimen/dimen_5dp"
+                                android:id="@+id/rad_m"
+                                android:textColor="@android:color/darker_gray"
+                                android:text="@string/hint_male"
+                                android:layout_height="wrap_content"/>
+
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        style="@style/Widget.Shrine.TextInputLayout.Reg"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_age">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:id="@+id/txt_input_editext_age"
+                            android:inputType="number"
+                            android:maxLines="1" />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.Shrine.TextInputLayout.Reg"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_address">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:id="@+id/txt_input_editext_address"
+                    android:inputType="text"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/Widget.Shrine.TextInputLayout.Reg"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_3dp"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_zone_no">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:id="@+id/txt_input_editext_zone"
+                        android:textSize="13sp"
+                        android:inputType="number"
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    style="@style/Widget.Shrine.TextInputLayout.Reg"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_3dp"
+                    android:layout_weight="1"
+                    android:hint="@string/hint_ward_no">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:id="@+id/txt_input_editext_ward"
+                        android:focusable="false"
+                        android:inputType="number"
+                        />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:layout_height="wrap_content">
+
+                <android.support.design.button.MaterialButton
+                    android:id="@+id/register_button"
+                    style="@style/Widget.Shrine.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/btn_update"
+                    android:textColor="@android:color/white" />
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/txt_already_account"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/font_16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/txt_login"
+                    android:textAllCaps="false"
+                    android:textSize="@dimen/font_16" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

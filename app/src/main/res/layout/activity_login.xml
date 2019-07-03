@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="16dp">
+
+      <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_250dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/equicity_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/txt_login"
+            android:textAppearance="@style/TextAppearance.Shrine.Title"
+            android:textAllCaps="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/font_25" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mob_no">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="@dimen/font_14"
+                android:id="@+id/txt_input_edittext_mob_no"
+                android:maxLines="1" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Snippet from "Add text fields" section goes here. -->
+
+        <!-- Snippet from "Add buttons" section goes here. -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                style="@style/Widget.Shrine.Button"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/txt_login" />
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/txt_dont_account"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_16" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/txt_register_now"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/txt_register_now"
+                android:textAllCaps="false"
+                android:textSize="@dimen/font_16" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4EB1E3</color>
+    <color name="colorPrimaryDark">#044AB1</color>
+    <color name="colorAccent">#5A82D9</color>
+    <color name="textInputLayout">#FFFF</color>
+    <color name="colorControlActivated">#45B2F1</color>
+    <color name="textColorPrimary">#442C2E</color>
+    <color name="toolbarIconColor">@color/textColorPrimary</color>
+    <color name="dark_blue">#1132D6</color>
+    <color name="color_red">#EC0810</color>
+</resources>
